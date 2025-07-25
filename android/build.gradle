@@ -25,14 +25,14 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
-
+    
     ext.exoPlayerVersion = "2.15.1"
     ext.lifecycleVersion = "2.4.0-beta01"
     ext.annotationVersion = "1.2.0"
     ext.workVersion = "2.7.0"
     ext.gradleVersion = "4.1.0"
     ext.kotlinVersion = "1.5.31"
-
+    namespace 'com.concung.pip_flutter'
     compileSdkVersion 31
 
     compileOptions {
